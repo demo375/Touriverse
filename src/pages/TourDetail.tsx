@@ -46,7 +46,7 @@ const tours: TourDetails[] = [
     id: 1,
     title: 'Ancient Wonders of Kyoto',
     description: 'Explore the historic temples and gardens of Kyoto with an expert local guide.',
-    fullDescription: 'Immerse yourself in the rich cultural heritage of Kyoto, Japan's ancient capital. This guided tour takes you through the city's most iconic temples, shrines, and traditional gardens, offering insights into Japanese history, art, and spirituality. Walk through the thousands of vermilion torii gates at Fushimi Inari Shrine, visit the golden pavilion of Kinkaku-ji, and experience the tranquility of Arashiyama's bamboo grove. Our expert local guides provide fascinating historical context and help you discover hidden gems off the typical tourist path.',
+    fullDescription: "Immerse yourself in the rich cultural heritage of Kyoto, Japan's ancient capital. This guided tour takes you through the city's most iconic temples, shrines, and traditional gardens, offering insights into Japanese history, art, and spirituality. Walk through the thousands of vermilion torii gates at Fushimi Inari Shrine, visit the golden pavilion of Kinkaku-ji, and experience the tranquility of Arashiyama's bamboo grove. Our expert local guides provide fascinating historical context and help you discover hidden gems off the typical tourist path.",
     images: [
       'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=1600&auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?w=1600&auto=format&fit=crop&q=80',
@@ -98,7 +98,7 @@ const tours: TourDetails[] = [
       {
         day: 'Stop 5',
         title: 'Gion District',
-        description: 'Conclude your tour in Kyoto's famous geisha district, with its traditional wooden machiya houses and atmospheric streets.'
+        description: "Conclude your tour in Kyoto's famous geisha district, with its traditional wooden machiya houses and atmospheric streets."
       }
     ],
     highlights: [
@@ -125,8 +125,8 @@ const tours: TourDetails[] = [
   {
     id: 2,
     title: 'Santorini Sunset Cruise',
-    description: 'Sail around Santorini\'s caldera and enjoy the spectacular sunset views.',
-    fullDescription: 'Experience the magic of Santorini from the water on this unforgettable sunset cruise. Sail along the island's caldera, formed by one of the largest volcanic eruptions in recorded history. Visit the natural hot springs for a therapeutic soak, explore secluded beaches accessible only by boat, and anchor near the Red and White beaches for swimming and snorkeling in crystal-clear waters. As the day comes to a close, witness the famous Santorini sunset from the best vantage point possible – the sea. Enjoy Greek wine and a freshly prepared dinner on board as the sky transforms into a palette of oranges, pinks, and purples.',
+    description: "Sail around Santorini's caldera and enjoy the spectacular sunset views.",
+    fullDescription: "Experience the magic of Santorini from the water on this unforgettable sunset cruise. Sail along the island's caldera, formed by one of the largest volcanic eruptions in recorded history. Visit the natural hot springs for a therapeutic soak, explore secluded beaches accessible only by boat, and anchor near the Red and White beaches for swimming and snorkeling in crystal-clear waters. As the day comes to a close, witness the famous Santorini sunset from the best vantage point possible – the sea. Enjoy Greek wine and a freshly prepared dinner on board as the sky transforms into a palette of oranges, pinks, and purples.",
     images: [
       'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=1600&auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1600&auto=format&fit=crop&q=80',
@@ -152,7 +152,7 @@ const tours: TourDetails[] = [
     ],
     notIncluded: [
       'Hotel transfers (available at additional cost)',
-      'Additional alcoholic beverages beyond what's provided',
+      "Additional alcoholic beverages beyond what's provided",
       'Gratuities (optional)',
       'Personal expenses',
     ],
@@ -180,7 +180,7 @@ const tours: TourDetails[] = [
       {
         day: 'Stop 5',
         title: 'Sunset Viewing',
-        description: 'Position for the perfect view of Santorini's world-famous sunset from the caldera, with views of the white-washed villages perched on the cliffs.'
+        description: "Position for the perfect view of Santorini's world-famous sunset from the caldera, with views of the white-washed villages perched on the cliffs."
       }
     ],
     highlights: [
@@ -188,7 +188,7 @@ const tours: TourDetails[] = [
       'Swim in volcanic hot springs with therapeutic properties',
       'Explore secluded beaches only accessible by boat',
       'Enjoy Greek wine and traditional cuisine on board',
-      'Take stunning photos of Oia's whitewashed buildings from the sea',
+      "Take stunning photos of Oia's whitewashed buildings from the sea",
     ],
     latitude: 36.4640,
     longitude: 25.3963,
@@ -208,7 +208,7 @@ const tours: TourDetails[] = [
     id: 3,
     title: 'Swiss Alps Hiking Adventure',
     description: 'Trek through the breathtaking landscapes of the Swiss Alps with experienced mountain guides.',
-    fullDescription: 'Experience the majesty of the Swiss Alps on this guided hiking adventure. Trek through stunning alpine landscapes featuring snow-capped peaks, emerald-green meadows, and crystal-clear mountain lakes. Our experienced mountain guides will lead you along well-established trails, sharing their knowledge of the region's unique flora, fauna, and geological formations. Enjoy a picnic lunch with panoramic views and visit charming mountain villages along the way. This moderate-difficulty hike is suitable for reasonably fit travelers who want to experience the natural beauty of Switzerland up close.',
+    fullDescription: "Experience the majesty of the Swiss Alps on this guided hiking adventure. Trek through stunning alpine landscapes featuring snow-capped peaks, emerald-green meadows, and crystal-clear mountain lakes. Our experienced mountain guides will lead you along well-established trails, sharing their knowledge of the region's unique flora, fauna, and geological formations. Enjoy a picnic lunch with panoramic views and visit charming mountain villages along the way. This moderate-difficulty hike is suitable for reasonably fit travelers who want to experience the natural beauty of Switzerland up close.",
     images: [
       'https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=1600&auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1502636621341-452fa6264858?w=1600&auto=format&fit=crop&q=80',
@@ -251,7 +251,7 @@ const tours: TourDetails[] = [
       {
         day: 'Stop 3',
         title: 'Mountain Lake Picnic',
-        description: 'Reach a pristine mountain lake where you'll enjoy a gourmet picnic lunch featuring local Swiss specialties.'
+        description: "Reach a pristine mountain lake where you'll enjoy a gourmet picnic lunch featuring local Swiss specialties."
       },
       {
         day: 'Stop 4',
@@ -266,7 +266,7 @@ const tours: TourDetails[] = [
     ],
     highlights: [
       'Trek through pristine alpine landscapes with a certified mountain guide',
-      'Enjoy panoramic views of Switzerland\'s most famous peaks',
+      "Enjoy panoramic views of Switzerland's most famous peaks",
       'Discover local flora and fauna with expert commentary',
       'Visit an authentic Swiss mountain village',
       'Savor a picnic lunch with local specialties in a scenic location',
@@ -289,7 +289,7 @@ const tours: TourDetails[] = [
     id: 4,
     title: 'Yosemite Valley Exploration',
     description: 'Discover the natural wonders of Yosemite National Park with a certified wilderness guide.',
-    fullDescription: 'Experience the awe-inspiring beauty of Yosemite National Park on this full-day guided exploration. Discover the park's iconic attractions including Half Dome, El Capitan, and Yosemite Falls, as well as hidden gems off the beaten path. Your certified wilderness guide will share fascinating insights about the park's geology, wildlife, and conservation efforts. Enjoy moderate hikes to scenic viewpoints, take memorable photos of the dramatic landscapes, and connect with nature in one of America's most beloved national parks. This tour is perfect for nature enthusiasts and first-time visitors who want to maximize their Yosemite experience.',
+    fullDescription: "Experience the awe-inspiring beauty of Yosemite National Park on this full-day guided exploration. Discover the park's iconic attractions including Half Dome, El Capitan, and Yosemite Falls, as well as hidden gems off the beaten path. Your certified wilderness guide will share fascinating insights about the park's geology, wildlife, and conservation efforts. Enjoy moderate hikes to scenic viewpoints, take memorable photos of the dramatic landscapes, and connect with nature in one of America's most beloved national parks. This tour is perfect for nature enthusiasts and first-time visitors who want to maximize their Yosemite experience.",
     images: [
       'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&auto=format&fit=crop&q=80',
       'https://images.unsplash.com/photo-1562310503-a96c2ded09a5?w=1600&auto=format&fit=crop&q=80',
@@ -329,7 +329,7 @@ const tours: TourDetails[] = [
       {
         day: 'Stop 2',
         title: 'Bridalveil Fall Trail',
-        description: 'Take a short hike to the base of the 620-foot Bridalveil Fall, one of Yosemite's most photographed waterfalls.'
+        description: "Take a short hike to the base of the 620-foot Bridalveil Fall, one of Yosemite's most photographed waterfalls."
       },
       {
         day: 'Stop 3',
@@ -348,9 +348,9 @@ const tours: TourDetails[] = [
       }
     ],
     highlights: [
-      'Witness Yosemite\'s iconic landmarks including Half Dome and El Capitan',
-      'Experience the thundering power of Yosemite Falls, North America\'s tallest waterfall',
-      'Learn about the park\'s unique geology, wildlife, and natural history',
+      "Witness Yosemite's iconic landmarks including Half Dome and El Capitan",
+      "Experience the thundering power of Yosemite Falls, North America's tallest waterfall",
+      "Learn about the park's unique geology, wildlife, and natural history",
       'Discover hidden viewpoints away from the tourist crowds',
       'Capture stunning photographs with expert guidance on the best angles and lighting',
     ],
