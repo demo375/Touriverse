@@ -100,7 +100,7 @@ const ToursSection = () => {
     {
       id: 2,
       title: 'Santorini Sunset Cruise',
-      description: 'Sail around Santorini's caldera and enjoy the spectacular sunset views.',
+      description: "Sail around Santorini's caldera and enjoy the spectacular sunset views.",
       image: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?w=500&auto=format&fit=crop&q=80',
       price: 89,
       duration: '3 hours',
