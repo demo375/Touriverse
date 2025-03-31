@@ -30,9 +30,9 @@ const HeroSection = () => {
           </p>
           
           {/* Search Box */}
-          <div className="bg-white p-2 rounded-md shadow-lg mx-auto max-w-2xl animate-fade-in">
+          <div className="bg-white p-4 rounded-lg shadow-lg mx-auto max-w-2xl animate-fade-in">
             <div className="flex flex-col sm:flex-row">
-              <div className="relative flex-grow mb-2 sm:mb-0">
+              <div className="relative flex-grow mb-3 sm:mb-0">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3">
                   <Search className="h-5 w-5 text-gray-400" />
                 </div>
@@ -41,24 +41,24 @@ const HeroSection = () => {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Where do you want to go?"
-                  className="hero-search-input pl-10 block"
+                  className="pl-10 py-2.5 block w-full rounded-md border-gray-300 bg-gray-50 text-gray-900 shadow-sm focus:border-travel-blue focus:ring-travel-blue"
                 />
               </div>
               
-              <div className="flex">
-                <div className="relative flex items-center px-4 py-2 bg-gray-100 sm:border-l border-gray-200">
+              <div className="flex flex-col sm:flex-row">
+                <div className="relative flex items-center px-4 py-2.5 bg-gray-100 sm:border-l border-gray-200 mb-2 sm:mb-0">
                   <Calendar className="h-5 w-5 text-gray-500 mr-2" />
                   <span className="text-gray-600 text-sm">Any Date</span>
                 </div>
                 
-                <div className="relative flex items-center px-4 py-2 bg-gray-100 border-l border-gray-200">
+                <div className="relative flex items-center px-4 py-2.5 bg-gray-100 border-l border-gray-200">
                   <Users className="h-5 w-5 text-gray-500 mr-2" />
                   <span className="text-gray-600 text-sm">2 Adults</span>
                 </div>
                 
                 <Button 
                   type="submit" 
-                  className="bg-travel-blue hover:bg-travel-blue/90 text-white px-6 py-2 rounded-r-md"
+                  className="bg-travel-blue hover:bg-travel-blue/90 text-white px-6 py-2.5 mt-2 sm:mt-0 sm:ml-2 rounded-md"
                 >
                   Search
                 </Button>

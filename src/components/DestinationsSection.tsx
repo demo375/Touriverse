@@ -13,17 +13,16 @@ interface DestinationCardProps {
 
 const DestinationCard = ({ image, name, tours, slug }: DestinationCardProps) => {
   return (
-    <Link to={`/destinations/${slug}`} className="destination-card group">
-      <div className="h-full">
-        <img 
-          src={image} 
-          alt={name} 
-          className="w-full h-64 object-cover transition-transform duration-700 ease-in-out"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 p-6 flex flex-col justify-end">
-          <h3 className="text-xl font-bold text-white mb-1">{name}</h3>
-          <p className="text-white/90 text-sm">{tours} tours</p>
-        </div>
+    <Link to={`/destinations/${slug}`} className="block relative group overflow-hidden rounded-lg h-64 shadow-lg">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10"></div>
+      <img 
+        src={image} 
+        alt={name} 
+        className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+      />
+      <div className="absolute bottom-0 left-0 p-6 z-20">
+        <h3 className="text-xl font-bold text-white mb-1">{name}</h3>
+        <p className="text-white/90 text-sm">{tours} tours</p>
       </div>
     </Link>
   );
@@ -86,12 +85,14 @@ const DestinationsSection = () => {
               From pristine beaches to mountain getaways, we have something for everyone.
             </p>
           </div>
-          <Button 
-            variant="outline" 
-            className="mt-4 md:mt-0 border-travel-blue text-travel-blue hover:bg-travel-blue hover:text-white flex"
-          >
-            All Destinations <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          <Link to="/destinations">
+            <Button 
+              variant="outline" 
+              className="mt-4 md:mt-0 border-travel-blue text-travel-blue hover:bg-travel-blue hover:text-white flex"
+            >
+              All Destinations <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
